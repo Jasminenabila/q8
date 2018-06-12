@@ -1,0 +1,40 @@
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\bin\roslyn\csc.exe
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\bin\roslyn\System.Collections.Immutable.dll
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\bin\roslyn\vbc.exe
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\bin\roslyn\VBCSCompiler.exe
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\bin\roslyn\VBCSCompiler.exe.config
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\bin\NYshariaCooperative.dll.config
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\bin\NYshariaCooperative.dll
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\bin\NYshariaCooperative.pdb
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\obj\Debug\NYshariaCooperative.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\obj\Debug\NYshariaCooperative.dll
+c:\users\user\documents\visual studio 2015\Projects\NYshariaCooperative\NYshariaCooperative\obj\Debug\NYshariaCooperative.pdb
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\bin\roslyn\csc.exe
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\bin\roslyn\System.Collections.Immutable.dll
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\bin\roslyn\System.Reflection.Metadata.dll
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\bin\roslyn\vbc.exe
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\bin\roslyn\VBCSCompiler.exe
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\bin\roslyn\VBCSCompiler.exe.config
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\bin\NYshariaCooperative.dll.config
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\bin\NYshariaCooperative.dll
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\bin\NYshariaCooperative.pdb
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\obj\Debug\NYshariaCooperative.csprojResolveAssemblyReference.cache
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\obj\Debug\NYshariaCooperative.dll
+E:\File Jasmine Kuliah\Project Jasmine\Q8\NYshariaCooperative\NYshariaCooperative\obj\Debug\NYshariaCooperative.pdb

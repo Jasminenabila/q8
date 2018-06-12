@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0CB35A6A-DAA0-4918-A8F3-065179926368}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NYshariaCooperative</RootNamespace>
+    <AssemblyName>NYshariaCooperative</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DeleteMember.aspx" />
+    <Content Include="DeletePinjam.aspx" />
+    <Content Include="DeleteSimpan.aspx" />
+    <Content Include="DaftarMember.aspx" />
+    <Content Include="HomeMember.aspx" />
+    <Content Include="Simulasi.aspx" />
+    <Content Include="UpdateMember.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="LoginAdmin.aspx" />
+    <Content Include="obj\anggota1.png" />
+    <Content Include="obj\anggota2.png" />
+    <Content Include="obj\anggota3.png" />
+    <Content Include="obj\background1.png" />
+    <Content Include="obj\background2.png" />
+    <Content Include="obj\cobaalogin.png" />
+    <Content Include="obj\cobaalogin1.png" />
+    <Content Include="obj\cobaalogin2.png" />
+    <Content Include="obj\cobaalogin3.png" />
+    <Content Include="obj\cobalogin.png" />
+    <Content Include="obj\inputsimpan.png" />
+    <Content Include="obj\logiinnnnnn.png" />
+    <Content Include="obj\login.png" />
+    <Content Include="obj\login1.png" />
+    <Content Include="obj\register1.png" />
+    <Content Include="obj\register2.png" />
+    <Content Include="obj\register3.png" />
+    <Content Include="obj\register4.png" />
+    <Content Include="obj\register5.png" />
+    <Content Include="obj\registerbener.png" />
+    <Content Include="obj\uang1.png" />
+    <Content Include="obj\uang2.png" />
+    <Content Include="obj\uang4.png" />
+    <Content Include="obj\uang5.png" />
+    <Content Include="obj\uang6.png" />
+    <Content Include="obj\uang7.png" />
+    <Content Include="obj\viewsimpan.png" />
+    <Content Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="aboutus.aspx" />
+    <Content Include="Anggota.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="obj\aboutus.png" />
+    <Content Include="obj\Halamanutama.png" />
+    <Content Include="obj\Home_Design.png" />
+    <Content Include="obj\insyallah_benerr.png" />
+    <Content Include="obj\Logooo.png" />
+    <Content Include="obj\PP.png" />
+    <Content Include="obj\Prosuder.png" />
+    <Content Include="obj\tentangkami.png" />
+    <Content Include="obj\terimakasihh.png" />
+    <Content Include="Pinjam.aspx" />
+    <Content Include="Simpan.aspx" />
+    <Content Include="Terimakasih.aspx" />
+    <Content Include="UpdatePinjam.aspx" />
+    <Content Include="UpdateSimpan.aspx" />
+    <Content Include="UpdSimpan.aspx" />
+    <Content Include="ViewMember.aspx" />
+    <Content Include="ViewPinjam.aspx" />
+    <Content Include="ViewSimpan.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aboutus.aspx.cs">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="aboutus.aspx.designer.cs">
+      <DependentUpon>aboutus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Anggota.aspx.cs">
+      <DependentUpon>Anggota.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Anggota.aspx.designer.cs">
+      <DependentUpon>Anggota.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteMember.aspx.cs">
+      <DependentUpon>DeleteMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteMember.aspx.designer.cs">
+      <DependentUpon>DeleteMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeletePinjam.aspx.cs">
+      <DependentUpon>DeletePinjam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeletePinjam.aspx.designer.cs">
+      <DependentUpon>DeletePinjam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteSimpan.aspx.cs">
+      <DependentUpon>DeleteSimpan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteSimpan.aspx.designer.cs">
+      <DependentUpon>DeleteSimpan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DaftarMember.aspx.cs">
+      <DependentUpon>DaftarMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DaftarMember.aspx.designer.cs">
+      <DependentUpon>DaftarMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeMember.aspx.cs">
+      <DependentUpon>HomeMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeMember.aspx.designer.cs">
+      <DependentUpon>HomeMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Simulasi.aspx.cs">
+      <DependentUpon>Simulasi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Simulasi.aspx.designer.cs">
+      <DependentUpon>Simulasi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateMember.aspx.cs">
+      <DependentUpon>UpdateMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateMember.aspx.designer.cs">
+      <DependentUpon>UpdateMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginAdmin.aspx.cs">
+      <DependentUpon>LoginAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginAdmin.aspx.designer.cs">
+      <DependentUpon>LoginAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pinjam.aspx.cs">
+      <DependentUpon>Pinjam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pinjam.aspx.designer.cs">
+      <DependentUpon>Pinjam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Simpan.aspx.cs">
+      <DependentUpon>Simpan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Simpan.aspx.designer.cs">
+      <DependentUpon>Simpan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Terimakasih.aspx.cs">
+      <DependentUpon>Terimakasih.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Terimakasih.aspx.designer.cs">
+      <DependentUpon>Terimakasih.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdatePinjam.aspx.cs">
+      <DependentUpon>UpdatePinjam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdatePinjam.aspx.designer.cs">
+      <DependentUpon>UpdatePinjam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateSimpan.aspx.cs">
+      <DependentUpon>UpdateSimpan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateSimpan.aspx.designer.cs">
+      <DependentUpon>UpdateSimpan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdSimpan.aspx.cs">
+      <DependentUpon>UpdSimpan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdSimpan.aspx.designer.cs">
+      <DependentUpon>UpdSimpan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewMember.aspx.cs">
+      <DependentUpon>ViewMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewMember.aspx.designer.cs">
+      <DependentUpon>ViewMember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPinjam.aspx.cs">
+      <DependentUpon>ViewPinjam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewPinjam.aspx.designer.cs">
+      <DependentUpon>ViewPinjam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSimpan.aspx.cs">
+      <DependentUpon>ViewSimpan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSimpan.aspx.designer.cs">
+      <DependentUpon>ViewSimpan.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51268</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51268/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
